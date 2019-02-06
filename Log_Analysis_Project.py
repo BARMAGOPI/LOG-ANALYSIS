@@ -32,6 +32,7 @@ Query3 = (" with Num_req AS (select time::date as day, count(*) "
           "select * from Errors_Rate where Error_per > 1;")
 
 
+# Connection to Database
 def connection(Database_name="news"):
     # check database connection
     try:
@@ -42,6 +43,7 @@ def connection(Database_name="news"):
         print("Unable to connect to the database")
 
 
+# getting data from Database
 def Read_Query_res(Query):
     # Provide results
     db_con, cursor = connection()
