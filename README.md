@@ -5,9 +5,9 @@ Project Overview: In this project, the main operations to be done is to fetch re
 
 ### Softwares needed:
 
-Python
-psycopg2
-PostgreSQL
+* Python
+* psycopg2
+* PostgreSQL
 
 A vagrant managed virtual machine(VM) is used to run the log analysis project which includes the above softwares. 
 This will need Vagrant and VirtualBox software installed on your system.
