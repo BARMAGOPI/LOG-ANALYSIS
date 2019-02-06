@@ -52,6 +52,7 @@ def Read_Query_res(Query):
     db_con.close()
 
 
+# showing result
 def Show_Query_res(Results_query):
     # printing results
     print("\n")
@@ -65,6 +66,7 @@ def Show_Query_res(Results_query):
             " - " + str(Res[1]) + " views")
 
 
+# showing result
 def Show_Error_res(Results_query):
     # printing results
     print("\n")
